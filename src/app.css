@@ -1,0 +1,9 @@
+.recipe-link {
+    color: black; /* Use the default text color */
+    text-decoration: none; /* Remove underline */
+  }
+  
+  .recipe-link:hover {
+    text-decoration: none; /* Remove underline on hover */
+    color: black; /* Use the default text color on hover */
+  }

@@ -1,0 +1,48 @@
+header {
+  max-height: 10vh;
+}
+
+main {
+  padding: 3vh 0;
+}
+
+footer {
+  background-color: bisque;
+  a {
+    font-size: 1.5rem;
+    text-decoration: none;
+    color: black;
+  }
+  a + a {
+    margin-left: 15px;
+  }
+}
+
+.colHeight {
+  height: 500px;
+}
+
+.recipeImage {
+  width: 300px;
+}
+
+@media only screen and (max-width: 768px) {
+  .recipeImage {
+    width: 100%;
+  }
+}
+
+a{
+  text-decoration: none;
+  color: black;
+}
+::-webkit-scrollbar {
+  display: none;
+}
+.container {
+  -ms-overflow-style: none;  /* Internet Explorer 10+ */
+  scrollbar-width: none;  /* Firefox */
+}
+.container::-webkit-scrollbar { 
+  display: none;  /* Safari and Chrome */
+}
